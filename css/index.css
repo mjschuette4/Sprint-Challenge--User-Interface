@@ -206,6 +206,38 @@ header {
     right: 76%;
   }
   hr {
-      font-style: 1px solid black;
+      font-style: 1px solid gray;
       margin: 5% 0;
+  }
+  .container1 {
+      display: flex;
+      
+  }
+  .container1 div{
+      
+  }
+  section .bigboi {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+  /* Animation Begin */
+  @keyframes butt {
+    0%   {top: 0px; left: 0px; background: red;}
+    12.5%  {top: 0px; left: 20px; background: blue;}
+    25%  {top: 20px; left: 20px; background: yellow;}
+    37.5%  {top: 20px; left: 0px; background: green;}
+    50% {top: 0px; left: 0px; background: red;}
+    62.5%   {top: 0px; left: 0px; background: red;}
+    75%  {top: 0px; left: 20px; background: blue;}
+    87.5%  {top: 20px; left: 20px; background: yellow;}
+    100%  {top: 20px; left: 0px; background: green;}
+    
+  }
+  button {
+      position: relative;
+  }
+  button:hover{
+      animation-name: butt;
+      animation-duration: 8s;
   }
