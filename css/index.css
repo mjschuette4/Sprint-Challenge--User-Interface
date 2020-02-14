@@ -233,12 +233,11 @@ header {
     62.5%  {top: 0px; left: 10px; background: blue;}
     75%    {top: 10px; left: 10px; background: yellow;}
     87.5%  {top: 10px; left: 0px; background: green;}
-    100%   {top: 0px; left: 0px; background: red;}
+    100%   {top: 0px; left: 0px; background: rgb(255, 0, 0);}
   }
   button {
       position: relative;
   }
   button:hover{
-      animation-name: butt;
-      animation-duration: 2s;
+      animation : butt 2s 0s 5;
   }
