@@ -101,10 +101,9 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +143,69 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* Box colors */
+.boxes .box1{
+    background: teal;
+}
+.boxes .box2{
+    background: gold;
+}
+.boxes .box3{
+    background: cadetblue;
+}
+.boxes .box4{
+    background: coral;
+}
+.boxes .box5{
+    background: crimson;
+}
+.boxes .box6{
+    background: forestgreen;
+}
+.boxes .box7{
+    background: darkorchid;
+}
+.boxes .box8{
+    background: hotpink;
+}
+.boxes .box9{
+    background: indigo;
+}
+.boxes .box10{
+    background: dodgerblue;
+}
+/* Header format */
+header {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 8%;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+  }
+  header nav {
+    width: 120%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 30%;
+  }
+  header a {
+    width: 20%;
+    margin: 5% 4%;
+    color: grey;
+    text-decoration: none;
+  }
+  header a:hover {
+    color: black;
+  }
+  header img {
+    position: absolute;
+    top: 10%;
+    right: 76%;
+  }
+  hr {
+      font-style: 1px solid black;
+      margin: 5% 0;
+  }
