@@ -128,6 +128,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 5%;
 }
 
 footer nav {
@@ -219,25 +220,25 @@ header {
   section .bigboi {
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: space-evenly;
+      
   }
   /* Animation Begin */
   @keyframes butt {
-    0%   {top: 0px; left: 0px; background: red;}
-    12.5%  {top: 0px; left: 20px; background: blue;}
-    25%  {top: 20px; left: 20px; background: yellow;}
-    37.5%  {top: 20px; left: 0px; background: green;}
-    50% {top: 0px; left: 0px; background: red;}
-    62.5%   {top: 0px; left: 0px; background: red;}
-    75%  {top: 0px; left: 20px; background: blue;}
-    87.5%  {top: 20px; left: 20px; background: yellow;}
-    100%  {top: 20px; left: 0px; background: green;}
-    
+    0%     {top: 0px; left: 0px; background: red;}
+    12.5%  {top: 0px; left: 10px; background: blue;}
+    25%    {top: 10px; left: 10px; background: yellow;}
+    37.5%  {top: 10px; left: 0px; background: green;}
+    50%    {top: 0px; left: 0px; background: red;}
+    62.5%  {top: 0px; left: 10px; background: blue;}
+    75%    {top: 10px; left: 10px; background: yellow;}
+    87.5%  {top: 10px; left: 0px; background: green;}
+    100%   {top: 0px; left: 0px; background: red;}
   }
   button {
       position: relative;
   }
   button:hover{
       animation-name: butt;
-      animation-duration: 8s;
+      animation-duration: 2s;
   }
